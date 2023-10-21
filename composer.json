@@ -1,15 +1,21 @@
 {
-    "name": "contentful/rich-text",
+    "name": "changers-no/contentful-rich-text",
     "description": "Utilities for the Contentful Rich Text",
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "ext-json": "*",
-        "contentful/core": "^3.0|^4.0"
+        "changers-no/contentful-core": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:changers-no/contentful-core.php.git"
+        }
+    ],
     "require-dev": {
-        "phpunit/phpunit": "^8.5",
+        "phpunit/phpunit": "^10.0",
         "twig/twig": "^3.0",
         "league/plates": "^3.3",
         "roave/backward-compatibility-check": "^7.1|^8.2.1",
