@@ -32,7 +32,7 @@
             "Contentful\\Tests\\RichText\\": "tests"
         },
         "files": [
-            "vendor/contentful/core/scripts/TestCase.php"
+            "vendor/changers-no/contentful-core/scripts/TestCase.php"
         ]
     },
     "scripts": {
