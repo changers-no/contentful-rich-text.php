@@ -2,6 +2,7 @@
     "name": "changers-no/contentful-rich-text",
     "description": "Utilities for the Contentful Rich Text",
     "type": "library",
+    "minimum-stability": "dev",
     "license": "MIT",
     "require": {
         "php": "^8.2",
